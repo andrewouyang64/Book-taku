@@ -5,7 +5,7 @@ Book-taku is an full stack application that allows reader interact with to see i
 
 ## Technologies used for the development
 - Node.js, express.js for the backend on RESTful API coding
-- MVC farmework is implemented. MYSQL and sequelize are used for dadabase, handlebars are the template engine.
+- MVC farmework is implemented. MYSQL and sequelize are used for database, handlebars are the template engine.
 - libraraies/packages include : express seccion for session & cookie, Dotenv for environment variables, bcrypt for password incryption, eslint and prettier for better unformed coding style, Pagination for better customer experience and easy navigation when browsing
 - Deployment site: Heroku cloud plaform
 - Git & Github for version control, project management and collaboration during the whole development 
