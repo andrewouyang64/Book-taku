@@ -1,7 +1,7 @@
 # BOOK-TAKU
 
 ## Description
-Book-taku is a book database which users can interact with to see information about a list of books and add comments to books. Book information is saved in a mySQL database and is displayed in an online Library format in the Book-taku application. The application allows users to add comments and read comments from other users on different types of books. The Book-taku application is responsive and interactive, and is  deployed on Heroku. 
+Book-taku is an application that allows reader interact with to see information about a list of books and adds comment to them. Book information is saved in a mySQL database and is displayed in an online Library. The application can bring up comments from other readers on different types of books. The Book-taku application is responsive and interactive, and is  deployed on Heroku. 
 
 ## Table of Contents
 * [User Stories](#userstories) 
@@ -18,10 +18,10 @@ Book-taku is a book database which users can interact with to see information ab
 ## Acceptance Criteria 
 - WHEN I click on the application link 
   THEN I am presented with a page consisting of login and signup options 
-- WHEN I login using my information 
-  THEN I am taken to a “Library” page with book titles/covers 
-- WHEN I click on a book title/cover
-  THEN I am taken to a page consisting of book name, author, number of pages, hardcover or paperback, a 2 sentence blurb, and a “add review” option
+- WHEN I login using my credential 
+  THEN I am taken to a “Library” page with book titles 
+- WHEN I click on a book title
+  THEN I am taken to a page consisting of book name, author, number of pages, hardcover or paperback, a 2 sentences blurb, and a “add review” option
 - WHEN I click on “add comment"  
   THEN the review is appended at the bottom of the page 
 
@@ -48,7 +48,7 @@ Book-taku is a book database which users can interact with to see information ab
 
 ### Pulling the repository from Git 
 
-If you would like to acess the source code, please navigate to the following public Github repository [Github Repository](git@github.com:amiresf1983/Book-taku.git). 
+If you would like to acess the source code, please navigate to the following public Github repository [Github Repository](git@github.andrewouyang64/Book-taku.git). 
 
 * Clone the repository to your local desktop using the following steps:
 
@@ -81,7 +81,7 @@ In order to run the applicational locally, follow the below steps.
 * Step 2: Install all the necessary npm packages by running the following command: 
 
   ```bash
-  npm start  
+  npm install  
   ```
 * Step 3: Run by using the following command in the command terminal in VS Code. 
 
