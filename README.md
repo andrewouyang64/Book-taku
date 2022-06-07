@@ -1,7 +1,14 @@
 # BOOK-TAKU
 
 ## Description
-Book-taku is an application that allows reader interact with to see information about a list of books and adds comment to them. Book information is saved in a mySQL database and is displayed in an online Library. The application can bring up comments from other readers on different types of books. The Book-taku application is responsive and interactive, and is  deployed on Heroku. 
+Book-taku is an full stack application that allows reader interact with to see information about a list of books and adds comment to them. Book information is saved in a mySQL database and is displayed in an online Library. The application can bring up comments from other readers on different types of books. The Book-taku application is responsive and interactive, and is  deployed on Heroku.
+
+## Technologies used for the development
+- Node.js, express.js for the backend on RESTful API coding
+- MVC farmework is implemented. MYSQL and sequelize are used for dadabase, handlebars are the template engine.
+- libraraies/packages include : express seccion for session & cookie, Dotenv for environment variables, bcrypt for password incryption, eslint and prettier for better unformed coding style, Pagination for better customer experience and easy navigation when browsing
+- Deployment site: Heroku cloud plaform
+- Git & Github for version control, project management and collaboration during the whole development 
 
 ## Table of Contents
 * [User Stories](#userstories) 
